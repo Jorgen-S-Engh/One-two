@@ -1,9 +1,13 @@
+
+
+
 nav {
     display: none;
 }
 
 #hamburger-menu{
     display:none;
+
      
 }
 
@@ -15,6 +19,7 @@ nav {
 nav{
     border:black 2px solid;
     width: 100px;
+
     
 }
 
@@ -25,8 +30,41 @@ li{
 }
 
 header{
-    height:500px;
+    height:100px;
     background-color: gray;
 
+
+}
+
+.hamburger{
+    color:white;
+    font-size: 2em;
+    float:right;
+    margin-right:30px;
+    margin-top: 30px;
+}
+
+nav li{
+    font-size: 1em;
+    display:block;
+    padding:0px;
+}
+
+nav ul{
+    font-size: 0.7em;
+    display:block;
+    padding:0px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.profile{
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
