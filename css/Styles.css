@@ -1,0 +1,32 @@
+nav {
+    display: none;
+}
+
+#hamburger-menu{
+    display:none;
+     
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+    
+}
+
+nav{
+    border:black 2px solid;
+    width: 100px;
+    
+}
+
+li{
+    margin-top: 20px;
+    transition: 1s;
+    padding: 0px;  
+}
+
+header{
+    height:500px;
+    background-color: gray;
+
+}
+
