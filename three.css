@@ -1,6 +1,10 @@
 
 
 /* this is the navigation*/
+header{
+    background: burlywood;
+    min-height: 100px;
+}
 
 nav {
     display: none;
@@ -8,7 +12,23 @@ nav {
 
 nav ul{
     list-style: none;
-   
+    padding:0px; 
+}
+
+nav li{
+    display: block;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    padding:10px;
+    display: block;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    text-decoration: underline;
 }
 
 #hamburger-menu{
@@ -18,15 +38,16 @@ nav ul{
 
 #hamburger-menu:checked ~ nav{
     display:block;
-    margin: 0%;
     text-align: right;
+    
 }
-
-
-
 
 .fa-bars{
     font-size: 40px;
     padding: 1em;
     float: right;
+}
+
+.current{
+    font-weight: bold;
 }
