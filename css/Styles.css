@@ -1,6 +1,7 @@
 
 body{
     font-family:'Marcellus SC', serif;;
+    margin:0px;
 }
 
 nav {
@@ -50,7 +51,6 @@ header{
     color:white;
     font-size: 2em;
     margin-right:30px;
-    margin-top: 30px;
 }
 
 nav li{
