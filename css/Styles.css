@@ -84,15 +84,16 @@ nav a{
 
 }
 .card{
+    margin-top: 10px;
+    margin:10px;
     width:200px;
+    height:300px;
     background-color: #00a4ccff;
-    display:inline-flex;
     color:white;
-    margin-left:5px;
-    margin-top: 5px;
     font-size: 5em;
     box-shadow: 5px 5px 8px rgba(255,0,255,0.8), 10px 10px 8px rgba(255,255,0.8), 15px 15px 8px rgba(0,255,255,0.8);
-    
+    text-align: center;
+    line-height: 300px;
 }
 
 .card:hover{
